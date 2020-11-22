@@ -1,0 +1,4 @@
+01:54:53.272 [main] DEBUG WeathAcademy.E2EMavenProject.ValidateTitle - I am the debugger logger
+01:54:54.431 [main] FATAL WeathAcademy.E2EMavenProject.ValidateTitle - I am the Fatal Logger
+01:55:56.132 [main] INFO  WeathAcademy.E2EMavenProject.ValidateTitle - Driver Initialized
+01:56:05.256 [main] INFO  WeathAcademy.E2EMavenProject.ValidateTitle - Navigated to home page

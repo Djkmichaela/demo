@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="WeathAcademy.E2EMavenProject.Listerners"/>
+  </listeners>
+  <test name="Validate Text test(failed)" parallel="none">
+    <classes>
+      <class name="WeathAcademy.E2EMavenProject.HomePage">
+        <methods>
+          <include name="closeTest"/>
+          <include name="getUrl"/>
+        </methods>
+      </class> <!-- WeathAcademy.E2EMavenProject.HomePage -->
+      <class name="WeathAcademy.E2EMavenProject.NavigateBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- WeathAcademy.E2EMavenProject.NavigateBar -->
+      <class name="WeathAcademy.E2EMavenProject.ValidateTitle">
+        <methods>
+          <include name="TearDown"/>
+          <include name="TextValidation"/>
+          <include name="Initialize"/>
+        </methods>
+      </class> <!-- WeathAcademy.E2EMavenProject.ValidateTitle -->
+    </classes>
+  </test> <!-- Validate Text test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
